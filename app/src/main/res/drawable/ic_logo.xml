@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Círculo exterior -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10 Z"/>
+    
+    <!-- Símbolo de división (línea horizontal) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M30,60 L90,60"/>
+    
+    <!-- Punto superior (círculo como path) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,34 a6,6 0 1,1 0,12 a6,6 0 1,1 0,-12"/>
+    
+    <!-- Punto inferior (círculo como path) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,74 a6,6 0 1,1 0,12 a6,6 0 1,1 0,-12"/>
+    
+    <!-- Flecha superior derecha -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M75,35 L85,30 L75,25 Z"/>
+    
+    <!-- Flecha inferior izquierda -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M45,85 L35,90 L45,95 Z"/>
+</vector>
+
